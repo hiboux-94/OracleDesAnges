@@ -57,5 +57,9 @@ NOTE : Je ne vous conseil pas de modifier les phrases du fichier OraclesDesAnges
 
 -----------------------------------------------------------------------------------------------------
 
+Version 1.1 : Correction de bugs mineurs et ajout du Portlet pour intégration sous SARAH
+
+Version 1.0 : Version originale
+
 Bonne utilisation à tous.
 Les remontées sont les bienvenues, sachant qu'il s'agit de mon tout premier plugin et qu'il n'est de ce fait, pas parfait.
