@@ -1,0 +1,21 @@
+	<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleOracleDesAnges" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleOracleDesAnges" scope="public">
+    <tag>out.action=new Object(); </tag>
+
+    <item>Sarah</item>
+
+    <one-of>
+	
+    <!-- Phrases clÃ©s pour le démarrage du tirage des cartes -->
+
+		<item>tire moi les cartes<tag>out.action.val="oracle"</tag></item>
+		<item>intérroge l'oracle<tag>out.action.val="oracle"</tag></item>
+		<item>lis mon avenir<tag>out.action.val="oracle"</tag></item>	
+		<item>comment sera ma journée aujourd'hui<tag>out.action.val="oracle"</tag></item>	
+		<item>que me prédit tu aujourd'hui<tag>out.action.val="oracle"</tag></item>	    	 	 
+	 
+    </one-of>
+
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/OracleDesAnges";</tag>
+  </rule> 
+</grammar>	
